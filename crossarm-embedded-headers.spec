@@ -16,7 +16,7 @@ URL:		http://www.gnuarm.org/
 BuildRequires:	dos2unix
 BuildRequires:	findutils
 BuildRequires:	unzip
-Requires:	crossarm-gcc
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		target		arm-pld-linux
