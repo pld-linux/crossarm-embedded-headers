@@ -5,6 +5,7 @@
 #		Currently at: http://able.sharpsma.com
 #
 Summary:	ARM header files (register definitions)
+Summary(pl):	Pliki nag³ówkowe ARM (definicje rejestrów)
 Name:		crossarm-embedded-headers
 Version:	3.4
 Release:	1
@@ -24,6 +25,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This package contains register definitions files for ARM based MCUs.
+
+%description -l pl
+Ten pakiet zawiera pliki definicji rejestrów dla mikrokontrolerów
+opartych na ARM.
 
 %prep
 %setup -q -c
