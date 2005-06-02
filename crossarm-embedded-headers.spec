@@ -15,7 +15,6 @@ Source0:	http://www.ariusdsp.com/~gnuarm/gnuarm-%{version}-headers.zip
 # Source0-md5:	9e4d7acf4d9be0eb8dd73572d0862036
 URL:		http://www.gnuarm.org/
 BuildRequires:	dos2unix
-BuildRequires:	findutils
 BuildRequires:	unzip
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
