@@ -5,7 +5,7 @@
 #		Currently at: http://able.sharpsma.com
 #
 Summary:	ARM header files (register definitions)
-Summary(pl.UTF-8):   Pliki nagłówkowe ARM (definicje rejestrów)
+Summary(pl.UTF-8):	Pliki nagłówkowe ARM (definicje rejestrów)
 Name:		crossarm-embedded-headers
 Version:	3.4
 Release:	1
